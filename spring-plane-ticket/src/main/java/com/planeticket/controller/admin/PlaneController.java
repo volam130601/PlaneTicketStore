@@ -13,8 +13,8 @@ import com.planeticket.dto.PlaneDTO;
 import com.planeticket.service.IAirlineService;
 import com.planeticket.service.IPlaneService;
 
-@Controller
-@RequestMapping(value = "/admin", name = "ManagerPlane")
+@Controller(value = "PlaneController")
+@RequestMapping(value = "/admin")
 public class PlaneController {
 	
 	@Autowired

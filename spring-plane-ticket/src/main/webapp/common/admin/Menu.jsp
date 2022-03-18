@@ -25,7 +25,7 @@
                                         <div class="sb-nav-link-icon"><i class="fa-solid fa-plane"></i></div>
                                         Flights
                                     </a>
-                                    <a class="nav-link" href="<c:url value="/admin/manager/route"/>">
+                                    <a class="nav-link" href="<c:url value="/admin/route"/>">
                                         <div class="sb-nav-link-icon"><i class="fa-solid fa-route"></i></div>
                                         Route
                                     </a>
@@ -36,6 +36,10 @@
                                     <a class="nav-link" href="<c:url value="/admin/plane/list"></c:url>"> 
                                         <div class="sb-nav-link-icon"><i class="fa-solid fa-place-of-worship"></i></div>
                                         Plane
+                                    </a>
+                                    <a class="nav-link" href="<c:url value="/admin/airpot"></c:url>"> 
+                                        <div class="sb-nav-link-icon"><i class="fa-solid fa-road"></i></div>
+                                        Airpot
                                     </a>
                                 </nav>
                             </div>
