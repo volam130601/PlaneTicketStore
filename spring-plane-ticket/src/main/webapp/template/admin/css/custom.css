@@ -1,0 +1,56 @@
+.border-card {
+	border-left: 4px solid;
+	border-radius: inherit;
+}
+/* Common */
+.b-blue {
+	border-color: blue;
+}
+
+.b-yellow {
+	border-color: yellow;
+}
+
+.b-green {
+	border-color: green;
+}
+
+.b-red {
+	border-color: red;
+}
+
+.ml-2 {
+	margin-left: 2rem !important;
+}
+
+.pr-1 {
+	padding-right: 1rem !important;
+}
+
+.pr-4 {
+	padding-right: 4rem !important;
+}
+
+.card-money {
+	display: flex;
+	align-items: center;
+}
+
+.nav-link__img {
+	width: 15px;
+}
+
+.fadeInOut {
+	animation: fadeInOut 4s forwards;
+}
+
+@keyframes fadeInOut {
+    0%,100% {
+         opacity: 0;
+         transform: translate3d(100%, 0, 0);
+    }
+	20%, 70% {
+         opacity: 1;
+         transform: none;
+    }
+}

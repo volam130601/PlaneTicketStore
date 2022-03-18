@@ -1,0 +1,216 @@
+.form-datetime {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Common */
+.ml-10px {
+  margin-left: 10px;
+}
+.mlr-6 {
+  margin: 0 6rem;
+}
+.ml-6 {
+  margin-left: 6rem;
+}
+.mr-6 {
+  margin-right: 6rem;
+}
+.btn-orange {
+  background-color: #fa6c00;
+  color: #fff;
+}
+
+.btn-orange:hover {
+  opacity: 0.7;
+}
+
+.btn-icon {
+  height: 1.6rem;
+  margin-left: 5px;
+}
+
+.btn-search-flight {
+  font-size: 1rem;
+}
+
+.navbar-icon {
+  height: 2rem;
+}
+
+.content-img {
+  background-image: url(https://img.wallpapersafari.com/desktop/1366/768/3/89/53j19Z.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.btn-map {
+  background-color: #ced4da;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.btn-map:hover {
+  opacity: 0.8;
+}
+
+.btn-filter {
+  background-color: #f5f5f5;
+  color: #0d6efd;
+  border-radius: 20px;
+  margin: 10px 5px;
+  font-weight: 500;
+}
+
+.btn-filter i {
+  padding-left: 5px;
+}
+
+.btn-filter:hover {
+  cursor: pointer;
+  color: #0d6efd;
+}
+
+.body-flight {
+  background-color: #e6eaed !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-body_airlines {
+  display: flex;
+  align-items: center;
+}
+
+.card-body_airlines img {
+  height: 15px;
+  margin: 10px;
+}
+
+.card-body_route-flight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}  
+
+.route-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px;
+}
+
+.route-content p {
+  font-size: 1.4rem;
+}
+
+.route-content span {
+  background-color: #d1d1d1;
+  padding: 3px 7px;
+  border-radius: 1rem;
+  color: rgb(136, 134, 134);
+}
+
+.route-content_middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.route-content_middle p {
+  margin-bottom: 5px;
+  color: rgb(136, 134, 134);
+}
+.route-content_middle  span{
+  padding: 3px 7px;
+  color: rgb(136, 134, 134);
+  font-size: 1.3rem;
+}
+.route-line {
+  border: 1px solid #000;
+  width: 100px;
+  border-color: rgb(170, 168, 168);
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.route-line::before {
+  content: "";
+  display: block;
+  border: 1px solid rgb(170, 168, 168);
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 1rem;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.route-line::after {
+  content: "";
+  display: block;
+  background-color: rgb(170, 168, 168);
+  width: 10px;
+  height: 10px;
+  border-radius: 1rem;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.flight-body-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.airline-money {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: 600;
+  color: rgb(136, 134, 134);
+}
+
+.airline-money p {
+  margin: 0;
+}
+
+.airline-money p:nth-child(1) b {
+
+  font-weight: 400;
+  text-decoration-line: line-through;
+}
+
+.airline-money p:nth-child(2) b {
+  color: #0d6efd;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.airline-img img{
+    height: 5rem;
+    width: 6.5rem;
+}
+
+.btn-continue {
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
